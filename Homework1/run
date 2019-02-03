@@ -1,0 +1,9 @@
+nasm -f elf problem1.s 
+gcc -m32 -o problem1 problem1.o
+nasm -f elf problem2.s 
+gcc -m32 -o problem2 problem2.o
+nasm -f elf problem3.s 
+gcc -m32 -o problem3 problem3.o
+nasm -f elf bonus.s 
+gcc -m32 -o bonus bonus.o
+

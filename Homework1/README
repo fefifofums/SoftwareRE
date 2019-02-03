@@ -1,0 +1,8 @@
+Dependencies
+sudo apt-get install nasm
+sudo apt-get install gcc-multilib
+
+Instructions to compile, link, and run.  Replace filename with the actually filename.
+nasm -f elf filename.s 
+gcc -m32 -o filename filename.o
+./filename
